@@ -113,7 +113,7 @@
     }
 
 .menu__link:not(:last-child):after {
-        content: "";
+        content: "/";
         margin: 0 10px;
     }
 .main__flex{
@@ -531,7 +531,12 @@
 .aside__select-size-wrapp:hover {
             font-weight: bold;
         }
-.like__title{
+.like {
+    margin-bottom: 55px;
+
+}
+
+    .like__title{
         font-size: 3.75rem;
         font-weight: 400;
         text-align: center;
@@ -611,7 +616,6 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-	margin-top: 50px;
     }
 
     .footer__title {
